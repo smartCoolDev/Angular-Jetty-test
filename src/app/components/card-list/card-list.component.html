@@ -1,0 +1,11 @@
+<div *ngIf="this.employeeService.selectedEmployeeID.getValue() === 0">
+  <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
+    <mat-grid-tile *ngFor="let employee of employees">
+      <app-shared-card
+        (mouseover)="handleMouseOver(employee.id)"
+        [avatar]="avatarSrcs[employee.id % 2]"
+        [combinedInfo]="combinedInfo"
+      ></app-shared-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

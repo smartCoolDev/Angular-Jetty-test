@@ -1,0 +1,35 @@
+  {"data": {
+    "addresses": [
+      {
+        "employeeID": 1,
+        "streetAddress": "7454 Rose St",
+        "City": "Upland, CA"
+      },
+      {
+        "employeeID": 2,
+        "streetAddress": "575 King St",
+        "City": "Tallahassee, FL"
+      },
+      {
+        "employeeID": 3,
+        "streetAddress": "559 S. Oak Meadow Street",
+        "City": "Camp Hill, PA"
+      },
+      {
+        "employeeID": 4,
+        "streetAddress": "8273 Tailwater Dr",
+        "City": "Norwich, CT"
+      },
+      {
+        "employeeID": 5,
+        "streetAddress": "420 Lakewood Street",
+        "City": "Glen Ellyn, IL"
+      },
+      {
+        "employeeID": 6,
+        "streetAddress": "635 Alton Lane",
+        "City": "Murfreesboro, TN"
+      }
+    ]
+  }
+}

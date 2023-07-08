@@ -1,0 +1,5 @@
+<app-shared-card
+  *ngIf="employeeService.selectedEmployeeID | async"
+  [avatar]="avatarSrcs[employeeService.selectedEmployeeID.getValue() % 2]"
+  [combinedInfo]="combinedInfo"
+></app-shared-card>

@@ -1,0 +1,27 @@
+<form class="autocomplete-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Employees</mat-label>
+    <input matInput [formControl]="myControl" [matAutocomplete]="auto" />
+    <mat-autocomplete
+      (optionSelected)="onEmployee($event.option.value)"
+      #auto="matAutocomplete"
+      [displayWith]="displayFn"
+    >
+      <mat-option
+        *ngFor="let option of filteredOptions | async"
+        [value]="option"
+      >
+        {{ option.firstName }} {{ option.lastName }}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <button
+    class="reset-btn"
+    mat-raised-button
+    color="primary"
+    (click)="resetFilter()"
+  >
+    Reset
+  </button>
+</form>
+<app-shared-error></app-shared-error>

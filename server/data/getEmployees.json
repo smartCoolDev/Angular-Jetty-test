@@ -1,0 +1,42 @@
+{
+  "data": {
+    "employees": [
+      {
+        "id": 1,
+        "firstName": "Akash",
+        "lastName": "Kumar",
+        "age": 30
+      },
+      {
+        "id": 2,
+        "firstName": "Sachin",
+        "lastName": "Zaza",
+        "age": 27
+      },
+      {
+        "id": 3,
+        "firstName": "Sokolovi",
+        "lastName": "Zaza",
+        "age": 27
+      },
+      {
+        "id": 4,
+        "firstName": "Momin",
+        "lastName": "Mokhtar",
+        "age": 30
+      },
+      {
+        "id": 5,
+        "firstName": "Sam",
+        "lastName": "Mokhtar",
+        "age": 45
+      },
+      {
+        "id": 6,
+        "firstName": "Craig",
+        "lastName": "Austin",
+        "age": 47
+      }
+    ]
+  }
+}
