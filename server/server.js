@@ -35,7 +35,7 @@ server.get('/api/list/employee/:id', passport.authenticate('jwt', { session: fal
      res.status(200).send(fakeData.getEmployees.data.employees.filter(employee => employee.id === parseInt(req.params.id)));
    });
 
-server.get('/api/list/employee', passport.authenticate('jwt', { session: false }), (req, res, next) => {
+server.get('/api/list/employee',  (req, res, next) => {
   res.status(200).send(fakeData.getEmployees);
 });
 
